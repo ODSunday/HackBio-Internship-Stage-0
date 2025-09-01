@@ -37,54 +37,55 @@ grep "/gene=" wildtype.gbk | cut -d'"' -f2                      # Lists all the 
 ``` 
 
 ## Project 2: Installation of Bioinformatics Tools 
-#1. Activate your base conda environment
-# First, On the GitHub Codespace, I downloaded the latest Linux 64-bit Miniconda installer from Miniconda’s official site and installed it as follows:
-$ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-$ bash Miniconda3-latest-Linux-x86_64.sh 
-$ conda init # To let it run.
-# Next, Conda was activated succesfully by closing and reopening my terminal, and verified with the following command:
-$ conda --version
-# Finally, I configured the necessary channels for Bioinformatics as follows:
-$ conda config --add channels defaults
-  conda config --add channels bioconda
-  conda config --add channels conda-forge
-
-#2. Create a conda environment named funtools
-$ conda create -n funtool python=3.10   # Creates fun
-
-#3. Activate the funtools environment
-$ conda activate funtools
-
-#4. Install Figlet using conda or apt-get
-$ sudo apt update && sudo apt install -y figlet # Used apt-get to install Figlet.
-
-#5. Run figlet <your name>
-$ figlet sunday   # Displays sunday
-
-#6. Install bwa through the bioconda channel
-$ conda install -c bioconda bwa
-
-#7. Install blast through the bioconda channel
-$ conda install -c bioconda blast
-
-#8. Install samtools through the bioconda channel
-$ conda install -c bioconda samtools
-
-#9. Install bedtools through the bioconda channel
-$ conda install -c bioconda bedtools
-
-#10. Install spades.py through the bioconda channel
-$ conda install -c bioconda spades   
-
-#11. Install bcftools through the bioconda channel
-$ conda install -c bioconda bcftools
-
-#12. Install fastp through the bioconda channel
-$ conda install -c bioconda fastp
-
-13. Install multiqc through the bioconda channel
-$ conda install -c bioconda multiqc
-
+This project involves the following tasks:
+1. Activating base conda environment
+   a. Downloading and installing Miniconda
+```bash
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh   # Downloads Miniconda. 
+bash Miniconda3-latest-Linux-x86_64.sh                                       # Installs Miniconda.
+conda init                                                                   # Runs Miniconda.
+```
+   b. Activating conda by closing and reopening terminal.
+   c. Verify with:
+```bash
+conda --version
+```
+   d. Configuring the necessary channels for Bioinformatics:
+```bash
+conda config --add channels defaults
+conda config --add channels bioconda
+conda config --add channels conda-forge
+```
+2. Creating a conda environment named 'funtools'
+```bash
+conda create -n funtool python=3.10                      # Creates funtool environment with Python 3.10.
+```
+3. Activating the 'funtools' environment
+```bash
+conda activate funtools
+```
+4. Installing Figlet using conda or apt-get
+```bash
+sudo apt update && sudo apt install -y figlet            # Used apt-get to install Figlet.
+```
+5. Running figlet <my name>
+```bash
+figlet sunday                                            # Nicely displays sunday
+```
+6. Install bwa through the bioconda channel
+```bash
+conda install -c bioconda bwa
+```
+7. Installing blast, samtools, bedtools, spades.py, bcftools, fastp, and multiqc through the bioconda channel.
+```bash
+conda install -c bioconda blast
+conda install -c bioconda samtools
+conda install -c bioconda bedtools
+conda install -c bioconda spades   
+conda install -c bioconda bcftools
+conda install -c bioconda fastp
+conda install -c bioconda multiqc
+```
 
 
 

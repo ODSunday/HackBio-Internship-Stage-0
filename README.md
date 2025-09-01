@@ -10,10 +10,12 @@ mkdir biocomputing && cd biocomputing
 ```
 
 3. Downloading and managing files:
+```bash
 wget https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.fna https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.gbk https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.gbk
 
 mv wildtype.fna ../sunday/
-rm wildtype.gbk.1   
+rm wildtype.gbk.1
+```  
 
 3. Sequence inspection and extraction of metadata.
 #!/bin/bash

@@ -47,6 +47,7 @@ bash Miniconda3-latest-Linux-x86_64.sh                                       # I
 conda init                                                                   # Runs Miniconda.
 ```
 b. Activating conda by closing and reopening terminal.
+
 c. Verify with:
 ```bash
 conda --version

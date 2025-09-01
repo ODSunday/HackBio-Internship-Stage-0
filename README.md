@@ -29,11 +29,11 @@ elif grep -q 'tata' wildtype.fna; then
 fi
 # Confirms if the '.fna' file is mutant or wild type (tatatata vs tata).
  
-grep ‘tatatata’ wildtype.fna > confirmed_mutant.fna                    # Prints all mutant-matching lines into a new file.
-tail -n +2 wildtype.gbk | wc -l                                        # Prints number of lines (excluding header) in the '.gbk' file.
-grep "^LOCUS" wildtype.gbk | awk '{print $3}'                          # Prints the sequence length.
-awk '/^SOURCE/ { $1=""; sub(/^ */, ""); print }' wildtype.gbk          # Prints the source organism.
-grep "/gene=" wildtype.gbk | cut -d'"' -f2                             # Lists all the gene names in the file.
+grep ‘tatatata’ wildtype.fna > confirmed_mutant.fna                # Prints all mutant-matching lines into a new file.
+tail -n +2 wildtype.gbk | wc -l                                    # Prints number of lines (excluding header) in the '.gbk' file.
+grep "^LOCUS" wildtype.gbk | awk '{print $3}'                      # Prints the sequence length.
+awk '/^SOURCE/ { $1=""; sub(/^ */, ""); print }' wildtype.gbk      # Prints the source organism.
+grep "/gene=" wildtype.gbk | cut -d'"' -f2                         # Lists all the gene names in the file.
 ``` 
 
 ## Project 2: Installation of Bioinformatics Tools 

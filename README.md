@@ -11,7 +11,8 @@ mkdir biocomputing && cd biocomputing        # Creates a new directory and chang
 
 2. Downloading and managing files:
 ```bash
-wget https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.fna https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.gbk https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.gbk          # Downloads all the three files
+wget https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.fna https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.gbk https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.gbk
+# Downloads all the three files
 
 mv wildtype.fna ../sunday/       # Moves the file to the folder tiltle my name. 
 rm wildtype.gbk.1                # Deletes the duplicate file.

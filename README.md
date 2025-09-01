@@ -4,17 +4,17 @@ The stage 0 tasks centres on introduction to BASh perfomed under two project. Pr
 Summarily, the tasks under this project include:
 1. Name printing and creating directories
 ```bash
-echo ‘SUNDAY’
-mkdir sunday
-mkdir biocomputing && cd biocomputing
+echo ‘SUNDAY’        # Prints my name.
+mkdir sunday         # Creates a folder titled my name.
+mkdir biocomputing && cd biocomputing        # Creates a new directory and changes to it with one line of command
 ```
 
 2. Downloading and managing files:
 ```bash
-wget https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.fna https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.gbk https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.gbk
+wget https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.fna https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.gbk https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.gbk          # Downloads all the three files
 
-mv wildtype.fna ../sunday/
-rm wildtype.gbk.1
+mv wildtype.fna ../sunday/       # Moves the file to the folder tiltle my name. 
+rm wildtype.gbk.1                # Deletes the duplicate file.
 ```  
 
 3. Sequence inspection and extraction of metadata.

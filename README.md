@@ -14,13 +14,14 @@ mkdir biocomputing && cd biocomputing        # Creates a new directory and chang
 wget https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.fna https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.gbk https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.gbk
 # Downloads all the three files
 
-mv wildtype.fna ../sunday/       # Moves the file to the folder tiltle my name. 
+mv wildtype.fna ../sunday/       # Moves this particular file to the folder tiltle my name. 
 rm wildtype.gbk.1                # Deletes the duplicate file.
 ```  
 
 3. Sequence inspection and extraction of metadata.
 ```bash
 #!/bin/bash
+
 if grep -q ‘tatatata’ wildtype.fna; then
     echo ‘mutant’
 elif grep -q 'tata' wildtype.fna; then

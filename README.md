@@ -1,7 +1,8 @@
 # HackBio-Internship-Stage-0
-The stage 0 tasks centres on introduction to BASh which involves basic BASh scripting (Project 1) and installation of bioinformatics tools (Project 2).
+The stage 0 tasks centres on introduction to BASh perfomed under two project. Project 1 involves basic BASh scripting with exercises walking us through common operations such as file management, sequence inspection, and metadata extraction using BASh commands. Project 2 mainly involves installation of bioinformatics tools.
 ## PROJECT 1: BASh BASICS
-##1. To print my name
+Summarily, the tasks under this project include:
+To print my name
 $ echo ‘SUNDAY’
 
 #2. To create a folder titled my name

@@ -38,7 +38,8 @@ grep "/gene=" wildtype.gbk | cut -d'"' -f2                      # Lists all the 
 
 ## Project 2: Installation of Bioinformatics Tools 
 This project involves the following tasks:
-1. Activating base conda environment
+1. Activating base conda environment:
+   
 a. Downloading and installing Miniconda
 ```bash
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh   # Downloads Miniconda. 
@@ -68,7 +69,7 @@ conda activate funtools
 ```bash
 sudo apt update && sudo apt install -y figlet            # Used apt-get to install Figlet.
 ```
-5. Running figlet <my name>
+5. Running 'figlet <my name>'
 ```bash
 figlet sunday                                            # Nicely displays sunday
 ```

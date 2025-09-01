@@ -1,6 +1,6 @@
 # PROJECT 1: BASh BASICS
 #1. To print my name
-$ echo ‘SUNDAY’
+echo ‘SUNDAY’
 
 #2. To create a folder titled my name
 $ mkdir sunday
@@ -90,6 +90,7 @@ $ ls sunday
 $ ls biocomputing  
  
 # Results: (i.) Files inside 'sunday' folder: wildtype.fna, mutant_vs_wildtype.sh, and confirmed_mutant.fna. (ii.) File inside 'biocomputing' folder: wildtype.gbk.
+
 
 
 

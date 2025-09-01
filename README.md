@@ -3,7 +3,8 @@ The stage 0 tasks centres on introduction to BASh perfomed under two project. Pr
 ## PROJECT 1: BASh BASICS
 Summarily, the tasks under this project include:
 1. Name printing and creating directories
-<pre> '''bash echo ‘SUNDAY’ mkdir sunday mkdir biocomputing && cd biocomputing''' <pre>
+<pre> '''Bash echo ‘SUNDAY’''' <pre>
+mkdir sunday mkdir biocomputing && cd biocomputing
 
 2. Downloading and managing files:
 wget https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.fna https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.gbk https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.gbk

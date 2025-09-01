@@ -39,18 +39,18 @@ grep "/gene=" wildtype.gbk | cut -d'"' -f2                      # Lists all the 
 ## Project 2: Installation of Bioinformatics Tools 
 This project involves the following tasks:
 1. Activating base conda environment
-   a. Downloading and installing Miniconda
+a. Downloading and installing Miniconda
 ```bash
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh   # Downloads Miniconda. 
 bash Miniconda3-latest-Linux-x86_64.sh                                       # Installs Miniconda.
 conda init                                                                   # Runs Miniconda.
 ```
-   b. Activating conda by closing and reopening terminal.
-   c. Verify with:
+b. Activating conda by closing and reopening terminal.
+c. Verify with:
 ```bash
 conda --version
 ```
-   d. Configuring the necessary channels for Bioinformatics:
+d. Configuring the necessary channels for Bioinformatics:
 ```bash
 conda config --add channels defaults
 conda config --add channels bioconda

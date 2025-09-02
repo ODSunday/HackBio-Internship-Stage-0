@@ -91,6 +91,10 @@ $ ls biocomputing
  
 # Results: (i.) Files inside 'sunday' folder: wildtype.fna, mutant_vs_wildtype.sh, and confirmed_mutant.fna. (ii.) File inside 'biocomputing' folder: wildtype.gbk.
 
+#14. List the files in the two folders.
+# The simplest method:
+$ ls sunday/ biocomputing/
+
 
 
 

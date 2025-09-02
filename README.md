@@ -88,7 +88,10 @@ conda install -c bioconda bcftools
 conda install -c bioconda fastp
 conda install -c bioconda multiqc
 ```
-
+Interestingly, these bioinformatics tools can be installed with one line of command as follows:
+```bash
+conda install -c bioconda bwa blast samtools bedtools spades bcftools fastp multiqc
+```
 
 
 
